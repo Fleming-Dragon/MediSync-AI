@@ -104,7 +104,3 @@ streamlit run app.py
 ```
 Once launched, Streamlit will display a **local URL** (typically http://localhost:8501) where you can access the MediSync AI interface in your browser.
 
-## **The Team** 
-* **Georges HOUMBADJI** (georges.houmbadji@edu.ece.fr) - AI Architect 
-* **Ahmed HADI GONI BOULAMA** (ahmed.hadigoniboulama@edu.ece.fr) - Data Engineer
-* **Sofiane CHABANE** (sofiane.chabane@edu.ece.fr) - Systems Engineer
