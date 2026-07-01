@@ -25,7 +25,7 @@ def load_llm():
 @st.cache_resource
 def load_vision_model():
     """Vision model (Llama 4 Maverick 17B) for Image Analysis."""
-    return ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct", temperature=0.3, max_retries=2)
+    return ChatGroq(model="meta-llama/llama-4-scout-17b-16e-instruct", temperature=0.3, max_retries=2)
 
 def analyze_image(image_data_url):
     """Helper function to perform Vision Analysis (Image-to-Text)."""
